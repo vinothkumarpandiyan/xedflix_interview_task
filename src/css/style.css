@@ -1,0 +1,80 @@
+.navbar-center
+{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    text-align: center;
+    margin:0 auto;
+    top: 16px;
+}
+.navbar-toggle {
+    z-index: 3;
+}
+.nav .search {
+  display: inline-block;
+  margin-top: 8px;
+  width: 80px;
+}
+.navbar-center .tab li .active{
+	color: #df7b95;
+}
+.navbar-center .tab li a{
+	text-transform: capitalize;
+	color: #ccc;
+	font-weight: 600;
+	text-decoration: none;
+}
+.navbar-nav li a img{
+	width: 30%;
+float: left;
+border-radius: 26px;
+}
+.navbar-nav li a span{
+	padding-top: 7px;
+padding-left: 7px;
+display: inline-block;
+text-transform: capitalize;
+}
+#ex4 .fa-bell{
+	color: #dde0ef;
+	font-size: 22px;
+}
+#ex4 .p1[data-count]:after{
+  position: absolute;
+right: 15%;
+top: 12%;
+content: attr(data-count);
+font-size: 46%;
+padding: 0px;
+border-radius: 50%;
+line-height: 14px;
+color: white;
+background: rgba(255,0,0,.85);
+text-align: center;
+min-width: 14px;
+font-weight: bold;
+}
+#ex4 .fa-2x {
+    font-size: 1em;
+}
+.add-plus span a i{
+	font-size: 45px;
+	color: #ff849c;
+	border-radius: 100%;
+	-webkit-box-shadow: -16px 6px 86px 7px rgba(255,132,156,0.52); 
+box-shadow: -16px 6px 86px 7px rgba(255,132,156,0.52);
+}
+.banner h3{
+	text-transform: capitalize;
+	font-weight: 600;
+
+}
+.banner h3:before{
+	content: "";
+	border: solid 2px #da496a;
+display: inline-block;
+width: 2%;
+vertical-align: middle;
+margin-right: 10px;
+}
+
