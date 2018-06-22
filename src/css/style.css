@@ -1,5 +1,7 @@
-.navbar-center
-{
+body {
+	background: #F6F7FB;
+}
+.navbar-center {
     position: absolute;
     width: 100%;
     left: 0;
@@ -10,12 +12,18 @@
 .navbar-toggle {
     z-index: 3;
 }
+.navbar-default{
+	background-color: #ffffff;
+}
 .nav .search {
   display: inline-block;
   margin-top: 8px;
   width: 80px;
 }
 .navbar-center .tab li .active{
+	color: #df7b95;
+}
+.navbar-center .tab li a:hover{
 	color: #df7b95;
 }
 .navbar-center .tab li a{
@@ -57,24 +65,124 @@ font-weight: bold;
 #ex4 .fa-2x {
     font-size: 1em;
 }
+.add-plus {
+	background: #FF987F; 
+    background: linear-gradient(to right, #FF987F , #FF486A);
+	-webkit-box-shadow: 0 4px 8px 0 rgba(255,132,156,0.52), 0 6px 20px 0 rgba(255,132,156,0.52); 
+	-moz-box-shadow: 0 4px 8px 0 rgba(255,132,156,0.52), 0 6px 20px 0 rgba(255,132,156,0.52);
+	-o-box-shadow: 0 4px 8px 0 rgba(255,132,156,0.52), 0 6px 20px 0 rgba(255,132,156,0.52);
+	box-shadow: 0 4px 8px 0 rgba(255,132,156,0.52), 0 6px 20px 0 rgba(255,132,156,0.52);
+	width: 45px;
+	height: 45px;
+	border-radius: 50%;
+}
 .add-plus span a i{
-	font-size: 45px;
-	color: #ff849c;
-	border-radius: 100%;
-	-webkit-box-shadow: -16px 6px 86px 7px rgba(255,132,156,0.52); 
-box-shadow: -16px 6px 86px 7px rgba(255,132,156,0.52);
+	font-size: 20px;
+	color: #fff;
+	padding: 13px;
 }
-.banner h3{
+.main_contant {
+	margin-top: 2em;
+}
+.banner h2{
 	text-transform: capitalize;
-	font-weight: 600;
-
+	font-weight: 200;
+	color: #3A3C4C;
+	font-family: 'Abril Fatface', cursive;
+    padding-bottom: 16px;
 }
-.banner h3:before{
+.banner h2:before{
 	content: "";
 	border: solid 2px #da496a;
-display: inline-block;
-width: 2%;
-vertical-align: middle;
-margin-right: 10px;
+	display: inline-block;
+	width: 2%;
+	vertical-align: middle;
+	margin-right: 10px;
 }
-
+.banner_right {
+	margin-top: 20px;
+    margin-bottom: 10px;
+	font-family: 'Abril Fatface', cursive;
+}
+.banner_right span a {
+	color: #CAD1E6;
+	text-decoration: none;
+}
+.banner_right span a:hover {
+	color: #CAD1E6;
+}
+.banner_right span .active {
+	color: #3A3C4C;
+}
+.card {
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 12px;
+    background: #fff;
+    -webkit-box-shadow: 0 10px 50px 0 rgb(218, 221, 232), 0 20px 50px 0 rgb(218, 221, 232); 
+    -moz-box-shadow: 0 10px 50px 0 rgb(218, 221, 232), 0 20px 50px 0 rgb(218, 221, 232); 
+	-o-box-shadow: 0 10px 50px 0 rgb(218, 221, 232), 0 20px 50px 0 rgb(218, 221, 232); 
+	box-shadow: 0 10px 50px 0 rgb(218, 221, 232), 0 20px 50px 0 rgb(218, 221, 232);
+    display: flex;
+    position: relative;
+    line-height: 20px;
+}
+.rounded-circle {
+	border-radius: 50%;
+	margin: 10px 0px;
+}
+.card-text {
+	padding: 0px 0px;
+	font-size: 10px;
+	color: #ccc;
+}
+.card span {
+	color: #E4E7F3;
+	font-size: 10px;
+}
+.card:after {
+    content: "\f005";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    color: #E4E7F2;
+    font-size: 12px;
+    padding-right: 0.5em;
+    position: absolute;
+    top: 10px;
+    right: 0;
+}
+.card_1:after {
+    content: "\f005";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    color: #FF4368;
+    font-size: 12px;
+    padding-right: 0.5em;
+    position: absolute;
+    top: 10px;
+    right: 0;
+}
+.more{
+	text-decoration: none;
+	color: #ccc;
+	font-size: 15px;
+    padding-top: 20px;
+    display: block;
+	font-family: 'Abril Fatface', cursive;
+}
+.more:hover{
+	text-decoration: none;
+	color: #000;
+}
+.more i{
+	margin-left: 4px;
+}
+.card i {
+	padding: 20px;
+	font-size: 15px;
+	color: #ccc;
+}
